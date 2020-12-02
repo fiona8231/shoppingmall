@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/mall-product (1).iml" filepath="$PROJECT_DIR$/mall-product (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-product (2).iml" filepath="$PROJECT_DIR$/mall-product (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-ware/mall-ware.iml" filepath="$PROJECT_DIR$/mall-ware/mall-ware.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
     </modules>
   </component>
 </project>
