@@ -12,7 +12,7 @@
 
 	<modules>
 
-		<module>mall-product</module>
+		<module>mall-production</module>
         <module>mall-coupon</module>
 		<module>mall-member</module>
 		<module>mall-order</module>
