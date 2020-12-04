@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 
+import com.fiona.mall.member.feign.CouponFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -31,6 +32,19 @@ public class MemberController {
     @Autowired
     private MemberService memberService;
 
+    //测试获取优惠券
+    @Autowired
+    CouponFeignService couponFeignService;
+
+    @RequestMapping("/coupons")
+    public R test(){
+        MemberEntity memberEntity = new MemberEntity();
+        memberEntity.setNickname("越");
+        R myMemberCoupons = couponFeignService.memberCoupons();
+       // Object mycoupons = myMemberCoupons.get("mycoupons");
+
+        return R.ok().put("myMember", memberEntity).put("myCoupons",myMemberCoupons.get("mycoupons"));
+    }
     /**
      * 列表
      */
