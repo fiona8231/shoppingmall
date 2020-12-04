@@ -7,9 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/mall-coupon/mall-coupon.iml" filepath="$PROJECT_DIR$/mall-coupon/mall-coupon.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-member/mall-member.iml" filepath="$PROJECT_DIR$/mall-member/mall-member.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-order/mall-order.iml" filepath="$PROJECT_DIR$/mall-order/mall-order.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-product/mall-product.iml" filepath="$PROJECT_DIR$/mall-product/mall-product.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-product (1).iml" filepath="$PROJECT_DIR$/mall-product (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/mall-product (2).iml" filepath="$PROJECT_DIR$/mall-product (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-production/mall-production.iml" filepath="$PROJECT_DIR$/mall-production/mall-production.iml" />
       <module fileurl="file://$PROJECT_DIR$/mall-ware/mall-ware.iml" filepath="$PROJECT_DIR$/mall-ware/mall-ware.iml" />
       <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />

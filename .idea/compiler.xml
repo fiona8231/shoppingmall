@@ -13,7 +13,6 @@
         <module name="mall-order" />
         <module name="mall-production" />
         <module name="mall-common" />
-        <module name="mall-product" />
         <module name="mall-member" />
         <module name="renren-generator" />
       </profile>

@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fiona.mall.coupon.entity.SeckillSkuNoticeEntity;
 import com.fiona.mall.coupon.service.SeckillSkuNoticeService;
-import com.fiona.common.utils.PageUtils;
-import com.fiona.common.utils.R;
+import com.fiona.mall.common.utils.PageUtils;
+import com.fiona.mall.common.utils.R;
 
 
 

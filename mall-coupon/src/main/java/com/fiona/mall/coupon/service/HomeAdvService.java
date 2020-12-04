@@ -1,7 +1,8 @@
 package com.fiona.mall.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.fiona.common.utils.PageUtils;
+
+import com.fiona.mall.common.utils.PageUtils;
 import com.fiona.mall.coupon.entity.HomeAdvEntity;
 
 import java.util.Map;
