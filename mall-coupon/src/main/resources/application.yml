@@ -11,10 +11,11 @@ spring:
         server-addr: 127.0.0.1:8848
   application:
       name: mall-coupon
-
+  profiles:
+    active: dev
 
 mybatis-plus:
-  mapper-locations: classpath*:/mapper/**/*.xml
+  mapper-locations: classpath:/mapper/**/*.xml
   global-config:
     db-config:
       id-type: auto
@@ -22,3 +23,6 @@ mybatis-plus:
 
 server:
   port: 7000
+
+
+
