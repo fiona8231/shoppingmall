@@ -1,10 +1,11 @@
-package com.fiona.mall.gateway;
+package com.fiona.mall.gataway;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MallGatewayApplicationTests {
+class MallGatawayApplicationTests {
 
 	@Test
 	void contextLoads() {

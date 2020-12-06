@@ -12,11 +12,11 @@
         <module name="renren-fast" />
         <module name="mall-order" />
         <module name="mall-production" />
+        <module name="mall-gataway" />
         <module name="mall-common" />
         <module name="demo" />
         <module name="mall-member" />
         <module name="renren-generator" />
-        <module name="mall-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +24,7 @@
       <module name="mall" target="1.5" />
       <module name="mall-common" target="1.8" />
       <module name="mall-coupon" target="1.8" />
+      <module name="mall-gataway" target="11" />
       <module name="mall-gateway" target="11" />
       <module name="mall-member" target="1.8" />
       <module name="mall-order" target="1.8" />
@@ -41,6 +42,7 @@
       <module name="demo" options="-parameters" />
       <module name="mall-common" options="-parameters" />
       <module name="mall-coupon" options="-parameters" />
+      <module name="mall-gataway" options="-parameters" />
       <module name="mall-gateway" options="-parameters" />
       <module name="mall-member" options="-parameters" />
       <module name="mall-order" options="-parameters" />

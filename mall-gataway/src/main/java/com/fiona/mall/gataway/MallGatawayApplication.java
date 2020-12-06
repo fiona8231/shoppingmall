@@ -1,16 +1,15 @@
-package com.fiona.mall.gateway;
+package com.fiona.mall.gataway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-
-@EnableDiscoveryClient
 @SpringBootApplication
-public class MallGatewayApplication {
+@EnableDiscoveryClient
+public class MallGatawayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MallGatewayApplication.class, args);
+		SpringApplication.run(MallGatawayApplication.class, args);
 	}
 
 }
