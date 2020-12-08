@@ -1,6 +1,7 @@
 package com.fiona.mall.production.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
 
@@ -33,13 +34,14 @@ public class CategoryController {
     private CategoryService categoryService;
 
     /**
-     * 列表
+     *  查出所有分类和子分类，并把他们按照父子结构组装起来
      */
-    @RequestMapping("/list")
-    public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = categoryService.queryPage(params);
+    @RequestMapping("/list/tree")
+    public R list(){
+     List<CategoryEntity> entities = categoryService.listWithTree();
 
-        return R.ok().put("page", page);
+
+        return R.ok().put("data", entities);
     }
 
 
