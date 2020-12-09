@@ -5,6 +5,10 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/mall_pms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: 1234
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
 
 
 mybatis-plus:
@@ -12,6 +16,7 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: auto
-
 server:
   port: 10000
+
+
