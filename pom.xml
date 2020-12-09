@@ -12,12 +12,14 @@
 
 	<modules>
 
-		<module>mall-product</module>
+		<module>mall-production</module>
         <module>mall-coupon</module>
 		<module>mall-member</module>
 		<module>mall-order</module>
 		<module>mall-ware</module>
+		<module>mall-gataway</module>
 		<module>renren-fast</module>
+		<module>renren-generator</module>
 
 	</modules>
 
