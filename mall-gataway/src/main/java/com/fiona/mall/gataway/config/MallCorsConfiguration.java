@@ -18,7 +18,7 @@ public class MallCorsConfiguration {
        corsConfiguration.addAllowedOrigin("*");//允许任意请求来源
        corsConfiguration.setAllowCredentials(true);//允许携带cookie
 
-
+       //这里都是自己配置有关于跨域
        source.registerCorsConfiguration("/**", corsConfiguration);
 
        return new CorsWebFilter(source);
