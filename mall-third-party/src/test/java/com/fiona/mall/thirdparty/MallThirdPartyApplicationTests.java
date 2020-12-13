@@ -7,6 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
+import javax.annotation.Resource;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -18,7 +19,7 @@ class MallThirdPartyApplicationTests {
 	public static void main(String[] args) {
 		SpringApplication.run(MallThirdPartyApplication.class, args);
 	}
-	@Autowired
+	@Resource
 	OSSClient ossClient;
 
    @Test
