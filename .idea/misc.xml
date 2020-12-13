@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mall-common/pom.xml" />
         <option value="$PROJECT_DIR$/mall-gataway/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-third-party/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

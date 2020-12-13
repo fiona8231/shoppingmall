@@ -20,6 +20,7 @@
 		<module>mall-gataway</module>
 		<module>renren-generator</module>
 		<module>renren-fast</module>
+		<module>mall-third-party</module>
 
 	</modules>
 

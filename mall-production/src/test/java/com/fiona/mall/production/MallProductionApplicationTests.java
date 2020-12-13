@@ -25,31 +25,31 @@ class MallProductionApplicationTests {
    @Autowired
 	BrandService brandService;
 
-    @Autowired
-    OSSClient ossClient;
-
-    @Test
-	void contextLoads() throws FileNotFoundException {
-//		BrandEntity brandEntity = new BrandEntity();
-//		brandEntity.setName("黑莓");
-//		brandService.save(brandEntity);
-
-//		BrandEntity brandEntity = new BrandEntity();
-//		brandEntity.setBrandId(13l);
-//		brandEntity.setDescript("小米");
+//    @Autowired
+//    OSSClient ossClient;
 //
-//		brandService.updateById(brandEntity);
-
-		InputStream inputStream = new FileInputStream("/Users/xuyue/Desktop/1.jpg");
-		ossClient.putObject("dongsenshopingmall", "dongsen.jpg", inputStream);
-		ossClient.shutdown();
-		System.out.println("上传成功");
-
-
-//		List<BrandEntity> list = brandService.list(new QueryWrapper<BrandEntity>().eq("brand_id", 12l));
-//        list.forEach((item)->{
-//			System.out.println(item);
-//		} );
-	}
+//    @Test
+//	void contextLoads() throws FileNotFoundException {
+////		BrandEntity brandEntity = new BrandEntity();
+////		brandEntity.setName("黑莓");
+////		brandService.save(brandEntity);
+//
+////		BrandEntity brandEntity = new BrandEntity();
+////		brandEntity.setBrandId(13l);
+////		brandEntity.setDescript("小米");
+////
+////		brandService.updateById(brandEntity);
+//
+//		InputStream inputStream = new FileInputStream("/Users/xuyue/Desktop/1.jpg");
+//		ossClient.putObject("dongsenshopingmall", "dongsen.jpg", inputStream);
+//		ossClient.shutdown();
+//		System.out.println("上传成功");
+//
+//
+////		List<BrandEntity> list = brandService.list(new QueryWrapper<BrandEntity>().eq("brand_id", 12l));
+////        list.forEach((item)->{
+////			System.out.println(item);
+////		} );
+//	}
 
 }
